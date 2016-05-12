@@ -1,0 +1,12 @@
+{
+  "name": "front-end",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Paul Rudmik <paul.rudmik@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true
+}
