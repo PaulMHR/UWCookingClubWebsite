@@ -8,5 +8,8 @@
   "license": "ISC",
   "moduleType": [],
   "homepage": "",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "angular-ui-router": "^0.3.0"
+  }
 }
