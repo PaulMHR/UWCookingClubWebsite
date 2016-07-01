@@ -1,8 +1,14 @@
 
-var app = angular.module('uwCookingApp',['ui.router']);
+var uwCookingApp = angular.module('uwCookingApp',['ui.router', 'ui.bootstrap']);
+console.log("I ran app.js");
 
-app.config()
+uwCookingApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 
-app.controller("testCtrl", ["$scope", function($scope) {
-  $scope.test_var = "mcdonalds"
+  $urlRouterProvider.otherwise("/main");
+
+  $stateProvider.state("main", {
+    url: "/main",
+    templateUrl: "main/main.html",
+    controller: "mainCtrl"
+  })
 }]);
