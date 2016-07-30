@@ -2,475 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bef387b-ff64-485b-a862-ec830bdfd181" name="Default" comment="Deleted old note_modules and replaced with fresh downloads of bootstrap and jQuery">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/configBridge.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/npm-shrinkwrap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rnotwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/accordion/accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/accordion/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/accordion/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/accordion/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/accordion/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/accordion/test/accordion.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/alert/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/alert/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/alert/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/alert/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/alert/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/alert/test/alert.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/buttons/buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/buttons/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/buttons/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/buttons/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/buttons/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/buttons/test/buttons.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/carousel/test/carousel.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/collapse/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/collapse/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/collapse/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/collapse/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/collapse/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/collapse/test/collapse.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dateparser/dateparser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dateparser/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dateparser/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dateparser/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dateparser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dateparser/test/dateparser.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepicker/test/datepicker.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/popup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/datepickerPopup/test/popup.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/debounce/debounce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/debounce/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/debounce/test/debounce.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/dropdown/test/dropdown.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/isClass/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/isClass/isClass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/isClass/test/isClass.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/test/modal.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/modal/test/multiMap.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pager/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pager/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pager/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pager/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pager/pager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pager/test/pager.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pagination/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pagination/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pagination/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pagination/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pagination/pagination.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/pagination/test/pagination.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/paging/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/paging/paging.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/paging/test/paging.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/test/popover-html.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/test/popover-template.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/popover/test/popover.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/position.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/position.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/test/position.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/position/test/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/progressbar/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/progressbar/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/progressbar/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/progressbar/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/progressbar/progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/progressbar/test/progressbar.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/rating/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/rating/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/rating/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/rating/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/rating/rating.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/rating/test/rating.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/stackedMap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/stackedMap/stackedMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/stackedMap/test/stackedMap.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tabs/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tabs/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tabs/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tabs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tabs/tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tabs/test/tabs.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/test/timepicker.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/timepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/timepicker/timepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/test/tooltip-template.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/test/tooltip.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/test/tooltip2.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/tooltip/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/docs/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/docs/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/docs/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/index-nocss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/test/typeahead-highlight-ngsanitize.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/test/typeahead-highlight.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/test/typeahead-parser.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/test/typeahead-popup.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/test/typeahead.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/typeahead.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/src/typeahead/typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/accordion/accordion-group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/accordion/accordion-group.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/accordion/accordion.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/accordion/accordion.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/alert/alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/alert/alert.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/carousel/carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/carousel/carousel.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/carousel/slide.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/carousel/slide.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/datepicker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/datepicker.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/day.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/day.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/month.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/month.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/year.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepicker/year.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepickerPopup/popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/datepickerPopup/popup.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/modal/backdrop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/modal/backdrop.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/modal/window.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/modal/window.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/pager/pager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/pager/pager.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/pagination/pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/pagination/pagination.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/popover/popover-html.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/popover/popover-html.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/popover/popover-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/popover/popover-template.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/popover/popover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/popover/popover.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/progressbar/bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/progressbar/bar.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/progressbar/progress.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/progressbar/progress.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/progressbar/progressbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/progressbar/progressbar.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/rating/rating.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/rating/rating.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tabs/tab.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tabs/tab.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tabs/tabset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tabs/tabset.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/timepicker/timepicker.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/timepicker/timepicker.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tooltip/tooltip-html-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tooltip/tooltip-html-popup.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tooltip/tooltip-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tooltip/tooltip-popup.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tooltip/tooltip-template-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/tooltip/tooltip-template-popup.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/typeahead/typeahead-match.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/typeahead/typeahead-match.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/typeahead/typeahead-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular-ui-bootstrap/template/typeahead/typeahead-popup.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular/package.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/construction.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular-ui-router/src/viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/angular/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="front-end.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -492,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            <state relative-caret-position="325">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -554,11 +118,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="1575" column="30" selection-start-line="1575" selection-start-column="30" selection-end-line="1575" selection-end-column="30" />
+            <state relative-caret-position="380">
+              <caret line="1590" column="10" selection-start-line="1590" selection-start-column="10" selection-end-line="1590" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="construction.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/construction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="69" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -592,9 +176,10 @@
         <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/app/main/main.js" />
         <option value="$PROJECT_DIR$/app/main/main.html" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/construction.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -650,52 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1212,7 +751,7 @@
       <option name="presentableId" value="Default" />
       <updated>1467329955881</updated>
       <workItem from="1467329958123" duration="4784000" />
-      <workItem from="1469851087422" duration="464000" />
+      <workItem from="1469851087422" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="Basic setup not yet complete">
       <created>1467330336205</created>
@@ -1235,13 +774,20 @@
       <option name="project" value="LOCAL" />
       <updated>1467335075378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted old note_modules and replaced with fresh downloads of bootstrap and jQuery">
+      <created>1469851565360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469851565360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5248000" />
+    <option name="totallyTimeSpent" value="5847000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1255,7 +801,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1264,7 +810,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1322,14 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,8 +937,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1575" column="30" selection-start-line="1575" selection-start-column="30" selection-end-line="1575" selection-end-column="30" />
+        <state relative-caret-position="380">
+          <caret line="1590" column="10" selection-start-line="1590" selection-start-column="10" selection-end-line="1590" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/construction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="69" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding />
         </state>
       </provider>
