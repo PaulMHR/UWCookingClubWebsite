@@ -3,72 +3,117 @@
     <head>
         <meta charset="UTF-8">
         <title>UW Cooking Club Prototype Landing Page</title>
+
+        <!--scripts and stylesheets-->
+        <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
+
+        <script>
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
+                    menu: '#menu'
+                });
+            });
+        </script>
+
+        <style>
+            body {
+                font-family: "Helvetica Neue";
+            }
+            h1 {
+                text-align: center;
+            }
+            p {
+                text-align: left;
+            }
+            #menu{
+                position:fixed;
+                z-index: 70;
+            }
+            #menu li {
+                display:inline-block;
+                margin:15px;
+                color: #000;
+                border-radius: 10px;
+            }
+            #menu li a {
+                text-decoration:none;
+                color: #000;
+            }
+            #homePageLogo {
+                height: 25px;
+                width: 25px;
+            }
+        </style>
     </head>
     <body>
 
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">UW Cooking Club</a>
-            </div>
+    <ul id="menu">
+        <li data-menuanchor="#homePage">
+            <a href="#homePage"><img id="homePageLogo" src="images/uwCookingClubLogo.png"></a>
+        </li>
+        <li data-menuanchor="#homePage">
+            <a href="#homePage">Home</a>
+        </li>
+        <li data-menuanchor="#aboutUsPage">
+            <a href="#aboutUsPage">About Us</a>
+        </li>
+        <li data-menuanchor="#pastEventsPage">
+            <a href="#pastEventsPage">Past Events</a>
+        </li>
+        <li data-menuanchor="#contactUsPage">
+            <a href="#contactUsPage">Contact Us</a>
+        </li>
+    </ul>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="construction.html">Events</a></li>
-                    <li><a href="construction.html">Contact Us</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="jumbotron">
-        <div class="container">
-            <h1>We're the University of Waterloo Cooking Club</h1>
-            <h2>Tired of dorm food yet?</h2>
-            <p>Forget about ramen noodles and kraft dinner. We're a club that's all about teaching and facilitating new experiences in cooking.</p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h2>About</h2>
-                <p>Learn a little more about who we are and where we meet</p>
-                <a class="btn btn-default" href="#" role="button">Read more</a>
-            </div>
-            <div class="col-md-4">
-                <h2>Events</h2>
-                <p>Find out what's coming up next in our calendar</p>
-                <a class="btn btn-default" href="#" role="button">Read more</a>
-            </div>
-            <div class="col-md-4">
-                <h2>Contact Us</h2>
-                <p>Interested and want to touch base? We'd be charmed.</p>
-                <a class="btn btn-default" href="#" role="button">Read more</a>
+    <div id="fullpage">
+        <div class="section active" data-anchor="homePage">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>We're the University of Waterloo Cooking Club</h1>
+                    <h2>Tired of dorm food yet?</h2>
+                    <p>Forget about ramen noodles and kraft dinner. We're a club that's all about teaching and facilitating new experiences in cooking.</p>
+                </div>
             </div>
         </div>
+        <div class="section" data-anchor="aboutUsPage">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>All about us</h1>
+                    <h2>So you say you can't cook...</h2>
+                    <p>The UW Cooking Club started off as a group of friends getting together to make awesome meals together.
+                        Since then, we've expanded to try and spread the joy of making something delicious to everybody -- even to
+                        anyone who say that they "can't cook."</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="modal-header">Everybody can cook</h2>
+                        <p>Honestly, it's not that difficult. If you can make Mac n' Cheese, you already know how to cook -- you boil water,
+                            check if the pasta's ready, drain it, and prepare the mixture. If you can do that, then with enough time, effort,
+                            and practice, you can cook anything you want.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/macaroni2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" data-anchor="pastEventsPage">
+
+        </div>
+        <div class="section" data-anchor="contactUsPage">
+
+        </div>
     </div>
-
-    <hr>
-
-    <p></p>
 
     </body>
-
-    <!--scripts and stylesheets-->
-    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
 
     </html>
 </DOCTYPE>
