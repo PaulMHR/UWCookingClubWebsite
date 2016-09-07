@@ -14,41 +14,14 @@
         <script>
             $(document).ready(function() {
                 $('#fullpage').fullpage({
+                    sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
                     anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
                     menu: '#menu'
                 });
             });
         </script>
 
-        <style>
-            body {
-                font-family: "Helvetica Neue";
-            }
-            h1 {
-                text-align: center;
-            }
-            p {
-                text-align: left;
-            }
-            #menu{
-                position:fixed;
-                z-index: 70;
-            }
-            #menu li {
-                display:inline-block;
-                margin:15px;
-                color: #000;
-                border-radius: 10px;
-            }
-            #menu li a {
-                text-decoration:none;
-                color: #000;
-            }
-            #homePageLogo {
-                height: 25px;
-                width: 25px;
-            }
-        </style>
+        <link rel="stylesheet" href="stylesheets/main.css" />
     </head>
     <body>
 
@@ -106,7 +79,15 @@
             </div>
         </div>
         <div class="section" data-anchor="pastEventsPage">
-
+            <div class="slide">
+                <h1>Slide 1</h1>
+            </div>
+            <div class="slide">
+                <h1>Slide 2</h1>
+            </div>
+            <div class="slide">
+                <h1>Slide 3</h1>
+            </div>
         </div>
         <div class="section" data-anchor="contactUsPage">
 
