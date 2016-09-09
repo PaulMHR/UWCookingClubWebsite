@@ -25,3 +25,8 @@ p {
     height: 25px;
     width: 25px;
 }
+
+.pastEventPhoto{
+    border:10px solid white;
+    border-radius: 3px;
+}

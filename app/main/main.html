@@ -10,15 +10,69 @@
         <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
-
+        <script src="https://d3js.org/d3.v4.min.js"></script>
         <script>
+            //IMPORTANT : fullpage.js MUST be loaded after d3 appends all images
             $(document).ready(function() {
-                $('#fullpage').fullpage({
-                    sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
-                    anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
-                    menu: '#menu'
-                });
-            });
+                window.fbAsyncInit = function() {
+                    FB.init({
+                      appId      : '948538425257195',
+                      xfbml      : true,
+                      version    : 'v2.7'
+                    });
+
+                    this.album_lists = [];
+                    this.current_album = [];
+                    $(document).trigger('fbload');
+                  };
+
+                  //IMPORTANT CC_USER_ID is our cooking club fb user ID
+                  // CC_PASTEVENTS_ALBUM_ID is the id of the album we get photos from
+                  var CC_USER_ID = '780926205363011';
+                  var CC_PASTEVENTS_ALBUM_ID = '796173653838266';
+
+                  (function(d, s, id){
+                     var js, fjs = d.getElementsByTagName(s)[0];
+                     if (d.getElementById(id)) {return;}
+                     js = d.createElement(s); js.id = id;
+                     js.src = "//connect.facebook.net/en_US/sdk.js";
+                     fjs.parentNode.insertBefore(js, fjs);
+                   }(document, 'script', 'facebook-jssdk'));
+
+                   $(document).on('fbload', function() {
+                     FB.api(
+                        "/" + CC_PASTEVENTS_ALBUM_ID +
+                        "/photos?fields=source,picture,link,name&access_token=948538425257195|OKEYNgz9w5m40brJViGZR7bAbsQ",
+                        function (response) {
+                          if (response && !response.error) {
+                            window.uwcookingclub_pastEventPhotos = response.data;
+                            $(document).trigger('gotPhotos');
+                          } else {
+                            console.log("error", response.error);
+                          }
+                        }
+                      );
+                    });
+
+                    $(document).on('gotPhotos', function () {
+                        d3.select('#pastEvents').selectAll("div").data(window.uwcookingclub_pastEventPhotos).enter().append("div")
+                        .attr("class", "slide").append('div')
+                        .style('display', 'flex').style('height', "100%").style('align-items', 'center')
+                        .style('justify-content', 'space-around').style('background-color', 'lightgreen')
+                        .append("img").attr("data-src", function (d) { return d.source}).attr("class", "pastEventPhoto")
+                        .style('max-height', "80%").style('')
+                        $(document).trigger('pastEventsAddended');
+                    });
+
+                    $(document).on('pastEventsAddended', function () {
+                         $('#fullpage').fullpage({
+                            sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
+                            anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
+                            menu: '#menu'
+                        }); 
+                    })
+               });
+
         </script>
 
         <link rel="stylesheet" href="stylesheets/main.css" />
@@ -78,16 +132,8 @@
                 </div>
             </div>
         </div>
-        <div class="section" data-anchor="pastEventsPage">
-            <div class="slide">
-                <h1>Slide 1</h1>
-            </div>
-            <div class="slide">
-                <h1>Slide 2</h1>
-            </div>
-            <div class="slide">
-                <h1>Slide 3</h1>
-            </div>
+        <div class="section" data-anchor="pastEventsPage" id="pastEvents">
+            <!-- the contents are added with facebook API-->
         </div>
         <div class="section" data-anchor="contactUsPage">
 
