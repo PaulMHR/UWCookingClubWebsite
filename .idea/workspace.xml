@@ -722,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473431014191</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed all IntelliJ crap.">
+      <created>1473431026041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1473431026041</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15657000" />
+    <option name="totallyTimeSpent" value="15666000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
