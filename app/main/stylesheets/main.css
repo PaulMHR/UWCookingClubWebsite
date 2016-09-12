@@ -25,3 +25,59 @@ p {
     height: 25px;
     width: 25px;
 }
+
+
+/* Contact Page */
+.contact-form {
+    vertical-align: center;
+    text-align: left;
+
+    width:500px;
+    height:422px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form-input {
+    width:500px;
+    height:96px;
+}
+
+.message-input {
+    width:500px;
+    height:170px;}
+
+.tag {
+    margin-bottom: 10px;
+}
+
+.nameemail {
+    width: 478px;
+    height: 38px;
+    padding-left: 10px;
+}
+
+.message {
+    width: 478px;
+    height: 104px;
+    border-color: #dddddd;
+    padding-left: 10px;
+}
+
+.submit-button {
+    border-color: black;
+    width: 100px;
+    height: 45px;
+    padding: 10px 0;
+    border: 3px thin black;
+    text-align: center;
+}
+
+
+.findus {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
