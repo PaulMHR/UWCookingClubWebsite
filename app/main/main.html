@@ -11,6 +11,10 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
 
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="../../node_modules/font-awesome/css/font-awesome.min.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
         <script>
             $(document).ready(function() {
                 $('#fullpage').fullpage({
@@ -89,8 +93,46 @@
                 <h1>Slide 3</h1>
             </div>
         </div>
+
         <div class="section" data-anchor="contactUsPage">
 
+            <div class="contact-form">
+                <!-- Name Input -->
+                <div class="form-input">
+                    <label for="name" class="tag">Name *</label>
+                    <br>
+                    <input id="submit-from" class="nameemail" type="text" name="name" data-validate="required,Generic" placeholder="Your Name..." required="" >
+                </div>
+
+                    <!-- Email Input -->
+                <div class="form-input">
+                    <label for="email" class="tag">Email Address *</label>
+                    <br>
+                    <input id="submit-address" class="nameemail" type="text" name="email" data-validate="required,Generic" placeholder="Your Email Address..." required="">
+                </div>
+
+                <!-- Message Input -->
+                <div class="message-input">
+                    <label for="message" class="tag">Message *</label>
+                    <br>
+                    <textarea id="submit-msg" class="message" type="text" name="message" data-validate="required,Generic" placeholder="Your Message..." required=""></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="btn submit-button" id="submit-button">Submit</div>
+
+                <!-- Facebook -->
+                <div class="row facebook">
+                    <div class="text-center">
+                        <ul class="list-inline">
+                            <li>
+                                <h2 class="findus">... or find us on<a href="https://www.facebook.com/groups/uwcookingclub/"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                                </h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
