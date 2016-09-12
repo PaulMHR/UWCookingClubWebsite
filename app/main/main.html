@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
 
         <script>
+            var minScreenWidth = 1000;
+
             $(document).ready(function() {
                 $('#fullpage').fullpage({
                     sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
@@ -19,14 +21,19 @@
                     menu: '#menu'
                 });
 
-                $(window).resize(function () {
-                    $('#debugWidth').html('<p id="debugWidth">' + window.innerWidth + '</p>');
+                function toggleImagesOnResolution() {
+                    if (window.innerWidth < minScreenWidth) {
+                        $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
+                    } else {
+                        $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
+                    }
+                }
+
+                toggleImagesOnResolution();
+
+                $(window).resize(function() {
                     if ($("div[data-anchor='aboutUsPage']").hasClass('active')) {
-                        if (window.innerWidth < 1000) {
-                            $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
-                        } else {
-                            $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
-                        }
+                        toggleImagesOnResolution()
                     }
                 });
             });
@@ -65,7 +72,6 @@
             </div>
         </div>
         <div class="section" data-anchor="aboutUsPage">
-            <p id="debugWidth"></p>
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
