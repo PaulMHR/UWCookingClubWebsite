@@ -18,6 +18,17 @@
                     anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
                     menu: '#menu'
                 });
+
+                $(window).resize(function () {
+                    $('#debugWidth').html('<p id="debugWidth">' + window.innerWidth + '</p>');
+                    if ($("div[data-anchor='aboutUsPage']").hasClass('active')) {
+                        if (window.innerWidth < 1000) {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
+                        } else {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
+                        }
+                    }
+                });
             });
         </script>
 
@@ -54,6 +65,7 @@
             </div>
         </div>
         <div class="section" data-anchor="aboutUsPage">
+            <p id="debugWidth"></p>
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
