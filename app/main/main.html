@@ -14,6 +14,11 @@
         <script>
             $(document).ready(function() {
                 $('#fullpage').fullpage({
+                    afterLoad: function(anchorLink, index) {
+                        $('#menu li.currentPage').removeClass('currentPage');
+                        $('li[data-menuanchor="#' + anchorLink + '"]').addClass('currentPage');
+                    },
+
                     sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
                     anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
                     menu: '#menu'
