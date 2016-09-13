@@ -10,19 +10,90 @@
         <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
-
+        <script src="https://d3js.org/d3.v4.min.js"></script>
         <script>
-            $(document).ready(function() {
-                $('#fullpage').fullpage({
-                    afterLoad: function(anchorLink, index) {
-                        $('#menu li.currentPage').removeClass('currentPage');
-                        $('li[data-menuanchor="#' + anchorLink + '"]').addClass('currentPage');
-                    },
+            var minScreenWidth = 1000;
 
-                    sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
-                    anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
-                    menu: '#menu'
-                });
+            //IMPORTANT : fullpage.js MUST be loaded after d3 appends all images
+            $(document).ready(function() {
+                window.fbAsyncInit = function() {
+                    FB.init({
+                      appId      : '948538425257195',
+                      xfbml      : true,
+                      version    : 'v2.7'
+                    });
+
+                    this.album_lists = [];
+                    this.current_album = [];
+                    $(document).trigger('fbload');
+                  };
+
+                  //IMPORTANT CC_USER_ID is our cooking club fb user ID
+                  // CC_PASTEVENTS_ALBUM_ID is the id of the album we get photos from
+                  var CC_USER_ID = '780926205363011';
+                  var CC_PASTEVENTS_ALBUM_ID = '796173653838266';
+
+                  (function(d, s, id){
+                     var js, fjs = d.getElementsByTagName(s)[0];
+                     if (d.getElementById(id)) {return;}
+                     js = d.createElement(s); js.id = id;
+                     js.src = "//connect.facebook.net/en_US/sdk.js";
+                     fjs.parentNode.insertBefore(js, fjs);
+                   }(document, 'script', 'facebook-jssdk'));
+
+                   $(document).on('fbload', function() {
+                     FB.api(
+                        "/" + CC_PASTEVENTS_ALBUM_ID +
+                        "/photos?fields=source,picture,link,name&access_token=948538425257195|OKEYNgz9w5m40brJViGZR7bAbsQ",
+                        function (response) {
+                          if (response && !response.error) {
+                            window.uwcookingclub_pastEventPhotos = response.data;
+                            $(document).trigger('gotPhotos');
+                          } else {
+                            console.log("error", response.error);
+                          }
+                        }
+                      );
+                    });
+
+                    $(document).on('gotPhotos', function () {
+                        d3.select('#pastEvents').selectAll("div").data(window.uwcookingclub_pastEventPhotos).enter().append("div")
+                        .attr("class", "slide").append('div')
+                        .style('display', 'flex').style('height', "100%").style('align-items', 'center')
+                        .style('justify-content', 'space-around').style('background-color', 'lightgreen')
+                        .append("img").attr("data-src", function (d) { return d.source}).attr("class", "pastEventPhoto")
+                        .style('max-height', "80%").style('')
+                        $(document).trigger('pastEventsAddended');
+                    });
+
+                $(document).on('pastEventsAddended', function () {
+                    $('#fullpage').fullpage({
+                        afterLoad: function(anchorLink, index) {
+                            $('#menu li.currentPage').removeClass('currentPage');
+                            $('li[data-menuanchor="#' + anchorLink + '"]').addClass('currentPage');
+                        },
+
+                        sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
+                        anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
+                        menu: '#menu'
+                    });
+                })
+
+                    function toggleImagesOnResolution() {
+                        if (window.innerWidth < minScreenWidth) {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
+                        } else {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
+                        }
+                    }
+
+                    toggleImagesOnResolution();
+
+                    $(window).resize(function() {
+                        if ($("div[data-anchor='aboutUsPage']").hasClass('active')) {
+                            toggleImagesOnResolution()
+                        }
+                    });
             });
         </script>
 
@@ -32,7 +103,7 @@
 
     <ul id="menu">
         <li data-menuanchor="#homePage">
-            <a href="#homePage"><img id="homePageLogo" src="images/uwCookingClubLogo.png"></a>
+            <a href="#homePage"><img id="homePageLogo" src="images/uwCookingClubLogo.svg"></a>
         </li>
         <li data-menuanchor="#homePage">
             <a href="#homePage">Home</a>
@@ -59,21 +130,11 @@
             </div>
         </div>
         <div class="section" data-anchor="aboutUsPage">
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>All about us</h1>
-                    <h2>So you say you can't cook...</h2>
-                    <p>The UW Cooking Club started off as a group of friends getting together to make awesome meals together.
-                        Since then, we've expanded to try and spread the joy of making something delicious to everybody -- even to
-                        anyone who say that they "can't cook."</p>
-                </div>
-            </div>
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <h2 class="modal-header">Everybody can cook</h2>
-                        <p>Honestly, it's not that difficult. If you can make Mac n' Cheese, you already know how to cook -- you boil water,
+                        <h2 class="modal-header">So you say you can't cook...</h2>
+                        <p class="modal-body">Honestly, it's not that difficult. If you can make Mac n' Cheese, you already know how to cook -- you boil water,
                             check if the pasta's ready, drain it, and prepare the mixture. If you can do that, then with enough time, effort,
                             and practice, you can cook anything you want.</p>
                     </div>
@@ -82,17 +143,26 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/dish.jpg">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="modal-header">That's where we come in</h2>
+                        <p class="modal-body">
+                            The UW Cooking Club started off as a group of friends getting together to make awesome meals together.
+                            Since then, our only goal has been to spread the joy of making something delicious to everybody by offering
+                            cooking classes and other events -- even to anyone who says that they "can't cook." </p>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="section" data-anchor="pastEventsPage">
-            <div class="slide">
-                <h1>Slide 1</h1>
-            </div>
-            <div class="slide">
-                <h1>Slide 2</h1>
-            </div>
-            <div class="slide">
-                <h1>Slide 3</h1>
-            </div>
+        <div class="section" data-anchor="pastEventsPage" id="pastEvents">
+            <!-- the contents are added with facebook API-->
         </div>
         <div class="section" data-anchor="contactUsPage">
 
