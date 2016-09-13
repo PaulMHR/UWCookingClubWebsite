@@ -66,36 +66,27 @@
                         $(document).trigger('pastEventsAddended');
                     });
 
-                    $(document).on('pastEventsAddended', function () {
-                         $('#fullpage').fullpage({
-                            sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
-                            anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
-                            menu: '#menu'
-                        });
-                    })
-               });
+                    $('#fullpage').fullpage({
+                        sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
+                        anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
+                        menu: '#menu'
+                    });
 
-                $('#fullpage').fullpage({
-                    sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
-                    anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
-                    menu: '#menu'
-                });
-
-                function toggleImagesOnResolution() {
-                    if (window.innerWidth < minScreenWidth) {
-                        $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
-                    } else {
-                        $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
+                    function toggleImagesOnResolution() {
+                        if (window.innerWidth < minScreenWidth) {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
+                        } else {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
+                        }
                     }
-                }
 
-                toggleImagesOnResolution();
+                    toggleImagesOnResolution();
 
-                $(window).resize(function() {
-                    if ($("div[data-anchor='aboutUsPage']").hasClass('active')) {
-                        toggleImagesOnResolution()
-                    }
-                });
+                    $(window).resize(function() {
+                        if ($("div[data-anchor='aboutUsPage']").hasClass('active')) {
+                            toggleImagesOnResolution()
+                        }
+                    });
             });
         </script>
 
