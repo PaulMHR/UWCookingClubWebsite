@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script>
+            var minScreenWidth = 1000;
+
             //IMPORTANT : fullpage.js MUST be loaded after d3 appends all images
             $(document).ready(function() {
                 window.fbAsyncInit = function() {
@@ -64,15 +66,30 @@
                         $(document).trigger('pastEventsAddended');
                     });
 
-                    $(document).on('pastEventsAddended', function () {
-                         $('#fullpage').fullpage({
-                            sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
-                            anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
-                            menu: '#menu'
-                        }); 
-                    })
-               });
+                $(document).on('pastEventsAddended', function () {
+                    $('#fullpage').fullpage({
+                        sectionsColor: ['#F0F2F4', '#fff', '#4BBFC3', '#f2f2f2'],
+                        anchors:['homePage', 'aboutUsPage', 'pastEventsPage', 'contactUsPage'],
+                        menu: '#menu'
+                    });
+                })
 
+                    function toggleImagesOnResolution() {
+                        if (window.innerWidth < minScreenWidth) {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").hide();
+                        } else {
+                            $("div[data-anchor='aboutUsPage'] div.col-md-5").show();
+                        }
+                    }
+
+                    toggleImagesOnResolution();
+
+                    $(window).resize(function() {
+                        if ($("div[data-anchor='aboutUsPage']").hasClass('active')) {
+                            toggleImagesOnResolution()
+                        }
+                    });
+            });
         </script>
 
         <link rel="stylesheet" href="stylesheets/main.css" />
@@ -108,27 +125,34 @@
             </div>
         </div>
         <div class="section" data-anchor="aboutUsPage">
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>All about us</h1>
-                    <h2>So you say you can't cook...</h2>
-                    <p>The UW Cooking Club started off as a group of friends getting together to make awesome meals together.
-                        Since then, we've expanded to try and spread the joy of making something delicious to everybody -- even to
-                        anyone who say that they "can't cook."</p>
-                </div>
-            </div>
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <h2 class="modal-header">Everybody can cook</h2>
-                        <p>Honestly, it's not that difficult. If you can make Mac n' Cheese, you already know how to cook -- you boil water,
+                        <h2 class="modal-header">So you say you can't cook...</h2>
+                        <p class="modal-body">Honestly, it's not that difficult. If you can make Mac n' Cheese, you already know how to cook -- you boil water,
                             check if the pasta's ready, drain it, and prepare the mixture. If you can do that, then with enough time, effort,
                             and practice, you can cook anything you want.</p>
                     </div>
                     <div class="col-md-5">
                         <img src="images/macaroni2.png">
                     </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/dish.jpg">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="modal-header">That's where we come in</h2>
+                        <p class="modal-body">
+                            The UW Cooking Club started off as a group of friends getting together to make awesome meals together.
+                            Since then, our only goal has been to spread the joy of making something delicious to everybody by offering
+                            cooking classes and other events -- even to anyone who says that they "can't cook." </p>
+                    </div>
+
                 </div>
             </div>
         </div>
