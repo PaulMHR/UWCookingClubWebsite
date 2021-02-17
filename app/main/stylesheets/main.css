@@ -15,11 +15,19 @@ p {
     display:inline-block;
     margin:15px;
     color: #000;
+    position: relative;
     border-radius: 10px;
 }
 #menu li a {
     text-decoration:none;
     color: #000;
+}
+#menu li.currentPage {
+    border:0;background:#333;
+    transition-timing-function: ease;
+}
+#menu li.currentPage a {
+    color: #fffff0;
 }
 #homePageLogo {
     height: 25px;
